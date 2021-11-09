@@ -4,3 +4,4 @@
 | ------------------------------------ | ----------- |
 | [jpa-soft-delete](./jpa-soft-delete) | JPA 软删除  |
 | [jpa-mybatis-transaction](./jpa-mybatis-transaction) | JPA Mybatis 共用事务  |
+| [jackson-read-write](./jackson-read-write) | Jackson 字段读写控制  |
