@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:mysql://10.64.90.127:53306/0x1c?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 4DevOn1y
+  jpa:
+    show-sql: true
