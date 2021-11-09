@@ -1,6 +1,5 @@
 package com.dongfg.poc.entity
 
-import com.fasterxml.jackson.annotation.JsonIgnore
 import org.hibernate.annotations.SQLDelete
 import org.hibernate.annotations.Where
 import java.time.LocalDateTime
@@ -35,9 +34,7 @@ class BankCard(
     var cardMobile: String? = null,
     var createdAt: LocalDateTime? = null,
     var updatedAt: LocalDateTime? = null,
-    @JsonIgnore
     var isDelete: Boolean? = false,
-    @JsonIgnore
     var deletedAt: LocalDateTime? = null,
 ) {
     override fun toString(): String {
