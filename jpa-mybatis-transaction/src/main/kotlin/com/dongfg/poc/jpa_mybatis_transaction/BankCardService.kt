@@ -1,6 +1,6 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_mybatis_transaction
 
-import com.dongfg.poc.entity.BankCard
+import com.dongfg.poc.jpa_mybatis_transaction.entity.BankCard
 import org.apache.ibatis.annotations.Mapper
 import org.apache.ibatis.annotations.Select
 import org.springframework.beans.factory.annotation.Autowired

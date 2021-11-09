@@ -1,6 +1,6 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_mybatis_transaction
 
-import com.dongfg.poc.entity.BankCard
+import com.dongfg.poc.jpa_mybatis_transaction.entity.BankCard
 import com.github.javafaker.Faker
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.assertEquals

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dongfg.poc.BankCardMapper">
+<mapper namespace="com.dongfg.poc.jpa_mybatis_transaction.BankCardMapper">
     <update id="updateById">
         update bank_card
         set holder_name      = #{holderName},

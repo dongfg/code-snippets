@@ -1,6 +1,6 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_mybatis_transaction
 
-import com.dongfg.poc.entity.BankCard
+import com.dongfg.poc.jpa_mybatis_transaction.entity.BankCard
 import com.github.javafaker.Faker
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.Assertions.*
@@ -11,9 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.jdbc.core.JdbcTemplate
-import org.springframework.transaction.annotation.Transactional
 import java.util.*
-
 
 @SpringBootTest
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)

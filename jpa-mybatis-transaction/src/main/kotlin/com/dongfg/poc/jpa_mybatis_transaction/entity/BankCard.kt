@@ -1,4 +1,4 @@
-package com.dongfg.poc.entity
+package com.dongfg.poc.jpa_mybatis_transaction.entity
 
 import java.time.LocalDateTime
 import javax.persistence.*

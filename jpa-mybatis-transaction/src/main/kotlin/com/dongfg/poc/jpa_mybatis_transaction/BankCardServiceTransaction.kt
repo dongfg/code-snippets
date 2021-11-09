@@ -1,9 +1,8 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_mybatis_transaction
 
-import com.dongfg.poc.entity.BankCard
+import com.dongfg.poc.jpa_mybatis_transaction.entity.BankCard
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import org.springframework.transaction.annotation.Propagation
 import org.springframework.transaction.annotation.Transactional
 
 @Service

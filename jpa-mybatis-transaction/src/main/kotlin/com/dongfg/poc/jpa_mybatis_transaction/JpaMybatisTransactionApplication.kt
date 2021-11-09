@@ -1,4 +1,4 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_mybatis_transaction
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
