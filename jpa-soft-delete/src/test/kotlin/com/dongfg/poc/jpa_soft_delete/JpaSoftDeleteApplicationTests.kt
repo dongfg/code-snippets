@@ -1,4 +1,4 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_soft_delete
 
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test

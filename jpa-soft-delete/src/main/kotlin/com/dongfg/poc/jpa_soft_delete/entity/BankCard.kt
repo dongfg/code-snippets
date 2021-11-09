@@ -1,4 +1,4 @@
-package com.dongfg.poc.entity
+package com.dongfg.poc.jpa_soft_delete.entity
 
 import org.hibernate.annotations.SQLDelete
 import org.hibernate.annotations.Where

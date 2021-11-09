@@ -1,6 +1,6 @@
-package com.dongfg.poc
+package com.dongfg.poc.jpa_soft_delete
 
-import com.dongfg.poc.entity.BankCard
+import com.dongfg.poc.jpa_soft_delete.entity.BankCard
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Service
