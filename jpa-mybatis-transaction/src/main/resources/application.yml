@@ -1,0 +1,20 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:h2:mem:poc;DATABASE_TO_UPPER=false
+    username: sa
+    password: 4DevOn1y
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    com.dongfg.poc: DEBUG
+    org.springframework.transaction: DEBUG
